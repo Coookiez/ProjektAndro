@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.konrad.shoppinglist.SearchProductsScreen">
+
+
+    <TextView
+        android:id="@+id/listNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickShowAllProductsFromDatabase"
+        android:text="SELECT PRODUCTS FROM PREDEFINED" />
+
+
+    <Button
+        android:id="@+id/addProductBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD YOUR OWN PRODUCT" />
+
+    <Button
+        android:id="@+id/addOwnersId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD OWNERS OF THIS LIST" />
+
+    <ScrollView
+        android:id="@+id/search_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="369dp">
+
+        <LinearLayout
+            android:id="@+id/search_lin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickGoBackToListView"
+        android:text="GO BACK TO LIST VIEW"
+        android:textAlignment="center" />
+
+</LinearLayout>

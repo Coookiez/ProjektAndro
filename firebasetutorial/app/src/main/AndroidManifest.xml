@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kuba.firebasetutorial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.main_activity.MainActivityView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.register_screen.RegisterScreenView" />
+        <activity android:name=".activities.logged_in_screen.LoggedInScreenView" />
+        <activity android:name=".activities.search_product_screen.SearchProductsScreenView" />
+        <activity android:name=".activities.messages_screen.MessagesScreenView" />
+        <activity android:name=".activities.conversation_screen.ConversationScreenView" />
+        <activity android:name=".activities.write_new_message_screen.WriteNewMessageScreenView"></activity>
+        <activity android:name=".activities.all_products_from_database.AllProductsFromDatabaseView"/>
+    </application>
+
+</manifest>

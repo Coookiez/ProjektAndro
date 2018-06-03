@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="log_in">Zaloguj</string>
+    <string name="no_account">Nie masz jeszcze konta? Zarejestruj się</string>
+    <string name="list_name">Nazwij swoją listę</string>
+    <string name="search">Szukaj artykułów…</string>
+    <string name="register">Zarejestruj</string>
+    <string name="registrationSuccessful">Rejestracja pomyślna!</string>
+    <string name="userExists">Taki użytkownik już istnieje</string>
+    <string name="wrongUsername">Podałeś złą nazwę użytkownika</string>
+    <string name="wrongPassword">Podałeś złe hasło</string>
+    <string name="addNewList">Dodaj nową listę…</string>
+    <string name="addListName">Podaj nazwę listy…</string>
+    <string name="addProductName">Podaj nazwę produktu…</string>
+    <string name="addOwnerName">Podaj login właściciela…</string>
+    <string name="addList">Dodaj listę</string>
+    <string name="write_new_message">Napisz nową wiadomość</string>
+    <string name="recipient">Adresat…</string>
+    <string name="write_your_message">Wpisz swoja wiadomosc…</string>
+    <string name="send">Wyslij</string>
+    <string name="title">Tytuł</string>
+    <string name="type">Napisz coś…</string>
+    <string name="addNewProduct">Dodaj nowy produkt</string>
+    <string name="addNewOwner">Dodaj nowego właściciela</string>
+
+</resources>
