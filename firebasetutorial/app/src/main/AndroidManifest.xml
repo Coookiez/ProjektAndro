@@ -23,6 +23,7 @@
         <activity android:name=".activities.conversation_screen.ConversationScreenView" />
         <activity android:name=".activities.write_new_message_screen.WriteNewMessageScreenView"></activity>
         <activity android:name=".activities.all_products_from_database.AllProductsFromDatabaseView"/>
+        <activity android:name=".activities.kuba_activities.KubaActivitiesView"/>
     </application>
 
 </manifest>

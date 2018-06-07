@@ -5,9 +5,6 @@ import android.content.Intent;
 import com.example.kuba.firebasetutorial.activities.all_products_from_database.AllProductsFromDatabaseView;
 import com.example.kuba.firebasetutorial.activities.logged_in_screen.LoggedInScreenView;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
 
 public class SearchProductScreenController {
     SearchProductsScreenView view;

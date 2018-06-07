@@ -11,9 +11,6 @@ import android.widget.TextView;
 
 import com.example.kuba.firebasetutorial.R;
 
-/**
- * Created by Kuba on 20/01/2018.
- */
 
 public class AllProductsFromDatabaseView extends AppCompatActivity {
 

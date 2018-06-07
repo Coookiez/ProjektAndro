@@ -7,9 +7,6 @@ import com.example.kuba.firebasetutorial.activities.write_new_message_screen.Wri
 
 import java.util.ArrayList;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
 
 class ConversationScreenController {
     private ConversationScreenView view;

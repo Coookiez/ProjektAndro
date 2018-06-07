@@ -11,11 +11,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-
-/**
- * Created by Konrad on 21.01.2018.
- */
-
 class MessagesScreenController {
     MessagesScreenView view;
     private MessagesScreenModel model;

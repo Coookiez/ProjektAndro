@@ -3,10 +3,6 @@ package com.example.kuba.firebasetutorial.activities.search_product_screen;
 import com.example.kuba.firebasetutorial.database.Database;
 import com.example.kuba.firebasetutorial.database.FireDatabase;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
-
 public class SearchProductScreenModel {
     private Database db = FireDatabase.getInstance();
     SearchProductScreenController controller;

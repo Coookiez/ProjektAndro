@@ -16,6 +16,7 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import com.example.kuba.firebasetutorial.R;
+import com.example.kuba.firebasetutorial.activities.kuba_activities.KubaActivitiesView;
 import com.example.kuba.firebasetutorial.activities.main_activity.MainActivityView;
 
 public class LoggedInScreenView extends AppCompatActivity {
@@ -104,5 +105,9 @@ public class LoggedInScreenView extends AppCompatActivity {
 
     public void getAllShoppingLists() {
         controler.handleGetAllLists();
+    }
+
+    public void EnterKubaList(View view) {
+        startActivity(new Intent(getApplicationContext(), KubaActivitiesView.class));
     }
 }

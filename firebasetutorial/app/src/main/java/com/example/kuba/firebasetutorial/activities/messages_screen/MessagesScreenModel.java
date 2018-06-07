@@ -7,10 +7,6 @@ import com.example.kuba.firebasetutorial.database.FireDatabase;
 import java.util.ArrayList;
 import java.util.Map;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
-
 class MessagesScreenModel {
 
     private final static Database db = FireDatabase.getInstance();

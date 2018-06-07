@@ -6,10 +6,6 @@ import android.util.Log;
 import com.example.kuba.firebasetutorial.activities.search_product_screen.SearchProductsScreenView;
 import com.example.kuba.firebasetutorial.activities.messages_screen.MessagesScreenView;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
-
 public class LoggedInScreenControler {
     LoggedInScreenView view;
     LoggedInScreenModel model;

@@ -4,9 +4,6 @@ import android.content.Intent;
 
 import com.example.kuba.firebasetutorial.activities.messages_screen.MessagesScreenView;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
 
 public class WriteNewMessageScreenController {
     private WriteNewMessageScreenView view;

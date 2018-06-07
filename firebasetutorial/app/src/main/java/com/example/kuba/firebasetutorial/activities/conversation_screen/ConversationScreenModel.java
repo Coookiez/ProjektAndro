@@ -6,10 +6,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
-
 class ConversationScreenModel {
 
     void setMessages(ArrayList<Message> received, ArrayList<Message> sent, ArrayList<Message> messages) {

@@ -3,9 +3,6 @@ package com.example.kuba.firebasetutorial.activities.main_activity;
 import com.example.kuba.firebasetutorial.database.Database;
 import com.example.kuba.firebasetutorial.database.FireDatabase;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
 
 class MainActivityModel {
 

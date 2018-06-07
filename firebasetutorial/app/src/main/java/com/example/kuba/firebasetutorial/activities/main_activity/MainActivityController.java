@@ -6,9 +6,6 @@ import com.example.kuba.firebasetutorial.activities.logged_in_screen.LoggedInScr
 import com.example.kuba.firebasetutorial.activities.register_screen.RegisterScreenView;
 import com.example.kuba.firebasetutorial.User;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
 
 public class MainActivityController {
 

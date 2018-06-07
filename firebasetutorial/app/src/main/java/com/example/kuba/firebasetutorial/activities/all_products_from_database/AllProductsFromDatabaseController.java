@@ -4,9 +4,6 @@ import android.content.Intent;
 
 import com.example.kuba.firebasetutorial.activities.search_product_screen.SearchProductsScreenView;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
 
 public class AllProductsFromDatabaseController {
     private AllProductsFromDatabaseView view;

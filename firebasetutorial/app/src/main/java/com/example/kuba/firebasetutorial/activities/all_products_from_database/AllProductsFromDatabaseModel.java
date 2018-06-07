@@ -3,9 +3,6 @@ package com.example.kuba.firebasetutorial.activities.all_products_from_database;
 import com.example.kuba.firebasetutorial.database.Database;
 import com.example.kuba.firebasetutorial.database.FireDatabase;
 
-/**
- * Created by Konrad on 21.01.2018.
- */
 
 public class AllProductsFromDatabaseModel {
     private Database db = FireDatabase.getInstance();

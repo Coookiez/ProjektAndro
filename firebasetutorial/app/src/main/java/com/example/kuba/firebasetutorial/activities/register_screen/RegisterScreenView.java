@@ -19,10 +19,6 @@ import com.google.firebase.database.DatabaseReference;
 import java.util.ArrayList;
 
 
-/**
- * Created by Kuba on 17/01/2018.
- */
-
 public class RegisterScreenView extends AppCompatActivity {
     Database db;
 
